@@ -1,0 +1,9 @@
+{
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "name": "MANATURY SINGULARITY | 2025",
+  "description": "El ecosistema de viajes definitivo impulsado por Gemini 3, Veo 3.1 e Imagen 4."
+}
