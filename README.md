@@ -1,35 +1,23 @@
-# 🌟 San Luis Vivo: Plataforma de Turismo Comunitario
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Bienvenido al repositorio oficial de **San Luis Vivo**, una iniciativa para conectar el Oriente Antioqueño con turismo regional, ecológico y de bienestar.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 📚 Documentación paso a paso
+View your app in AI Studio: https://ai.studio/apps/drive/1wmeUz5MqJcOFkoulO10fSb4V0WeSViad
 
-La carpeta `docs/` contiene toda la guía técnica y comunitaria para construir, desplegar y mantener la aplicación:
+## Run Locally
 
-1. [01_registro_github_app.md](docs/01_registro_github_app.md)  
-   Registro de la GitHub App (OAuth + Webhooks).
+**Prerequisites:**  Node.js
 
-2. [02_backend_api.md](docs/02_backend_api.md)  
-   Backend con Node.js, Express y Prisma.
 
-3. [03_frontend_web.md](docs/03_frontend_web.md)  
-   Frontend con React, Vite, Tailwind y Leaflet.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
 
-4. [04_ci_cd.md](docs/04_ci_cd.md)  
-   CI/CD con GitHub Actions.
 
-5. [05_despliegue_azure.md](docs/05_despliegue_azure.md)  
-   Despliegue en Azure con contenedores.
 
-6. [06_manual_operativo.md](docs/06_manual_operativo.md)  
-   Manual operativo, onboarding y rituales comunitarios.
-
----
-
-## 🚀 Cómo empezar
-
-1. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/ecobienestarsanluis-eng/-San-Luis-Vivo-Plataforma-de-Turismo-Manatury-.git
